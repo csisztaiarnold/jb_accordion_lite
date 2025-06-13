@@ -15,7 +15,7 @@ npm install
 ```
 
 ```bash
-npm build
+npm run build
 ```
 
 Copy `jb-accordion-lite.min.js` and `jb-accordion-lite.min.css` to your project.
@@ -73,7 +73,7 @@ Init the accordion in your JavaScript:
 <script>
     initJbAccordionLite({
         containerId: 'accordion-container-id',
-        allowMultiple: false
+        allowMultiple: false, // Use true for allowing multiple open accordion instances.
     });
 </script>
 ```
