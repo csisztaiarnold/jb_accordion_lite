@@ -1,0 +1,10 @@
+.idea
+node_modules
+dist
+.vscode
+.DS_Store
+.env
+jb-accordion-lite.compiled.css.map
+jb-accordion-lite.min.js
+jb-accordion-lite.min.css
+jb-accordion-lite.min.css.map

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JB Accordion Lite</title>
+    <link rel="stylesheet" href="jb-accordion-lite.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        button, .jb-accordion-lite-content {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div style="max-width: 900px; margin: 0 auto; padding: 0 40px">
+    <h1>Single Instance (open accordion is closed after opening a new one)</h1>
+    <div id="jb-accordion-lite-single" class="jb-accordion-lite-container">
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 1</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.</p>
+
+                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+            </div>
+        </div>
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 2</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Praesent dapibus neque id cursus faucibus tortor neque egestas auguae eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi tincidunt quis accumsan porttitor facilisis luctus metus.</p>
+
+                <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
+            </div>
+        </div>
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 3</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.</p>
+            </div>
+        </div>
+    </div>
+
+    <h1>Multiple Instances (all accordions remain open until you close them)</h1>
+    <div id="jb-accordion-lite-multiple" class="jb-accordion-lite-container">
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 1</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.</p>
+
+                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+            </div>
+        </div>
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 2</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Praesent dapibus neque id cursus faucibus tortor neque egestas auguae eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi tincidunt quis accumsan porttitor facilisis luctus metus.</p>
+
+                <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
+            </div>
+        </div>
+        <div class="jb-accordion-lite-item">
+            <button class="jb-accordion-lite-header">
+                <span>Accordion item 3</span>
+                <span class="accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <polyline points="6 8 10 12 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="jb-accordion-lite-content">
+                <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jb-accordion-lite.min.js"></script>
+<script>
+    initJbAccordionLite({
+        containerId: 'jb-accordion-lite-single',
+        allowMultiple: false
+    });
+
+    initJbAccordionLite({
+        containerId: 'jb-accordion-lite-multiple',
+        allowMultiple: true
+    });
+</script>
+</body>
+</html>

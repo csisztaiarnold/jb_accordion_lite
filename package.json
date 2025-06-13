@@ -1,0 +1,24 @@
+{
+  "name": "jb-accordion-lite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jb-accordion-lite.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "clean-css-cli": "^5.6.3",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.70.0",
+    "terser": "^5.42.0"
+  },
+  "scripts": {
+    "build:css": "sass jb-accordion-lite.css jb-accordion-lite.compiled.css && postcss jb-accordion-lite.compiled.css -o jb-accordion-lite.min.css && rm jb-accordion-lite.compiled.css",
+    "build:js": "terser jb-accordion-lite.js -c -m -o jb-accordion-lite.min.js",
+    "build": "npm run build:css && npm run build:js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
