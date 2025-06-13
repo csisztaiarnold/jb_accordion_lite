@@ -4,7 +4,7 @@ A simple, lightweight (1,6 kbytes of minimized JavaScript and CSS) accordion com
 
 Demo: https://jailbird.hu/jb_accordion_lite/
 
-I created this accordion because I needed a simple accordion for my personal website, and I didn't need anything fancy, just something that was easy to use and customize.
+I created this accordion because I needed a [simple accordion for a section on personal website](https://jailbird.hu/#career), and I didn't need anything fancy, just something that was easy to use and customize.
 
 ## Usage
 
